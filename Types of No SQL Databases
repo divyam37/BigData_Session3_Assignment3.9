@@ -1,0 +1,62 @@
+MongoDB
+This highly scalable and agile NoSQL database is a amazing performing system. This open source database written in C++ comes with a storage that is document oriented. Also, you will be provided with benefits like full index support, high availability across WANs and LANs along with easy replication, horizontal scaling, rich queries that are document based, flexibility in data processing and aggregation along with proper training, support and consultation.
+
+Redis
+This is an open source, key value store of an advanced level. Owing to the presence of hashes, sets, strings, sorted sets and lists in a key; Redis is also called as a data structure server. This system will help you in running atomic operations like incrementing value present in a hash, set intersection computation, string appending, difference and union. Redis makes use of in-memory dataset to achieve high performance. Also, this system is compatible with most of the programming languages.
+
+Couch DB
+Couch DB Couch DB is a Apache project and a really powerful database for JSON based web applications. This database provides really powerful API to store JSON objects as documents in the database. You can use JavaScript to run MapReduce Queries on CouchDB. It also provides a very convenient web based administration console. This database could be really handy for web applications.
+
+REVENDB
+RAVENDB is a second generation open source DB. This DB is document oriented and schema free such as you simply have to dump in your objects into it. It provides extremely flexible and fast queries. This application makes scaling extremely easy by providing out-of-the-box support for replication, multi tenancy and sharding. There is full support for ACID transactions along with safety of your data. Easy extensibility via bundles is provided along with high performance.
+
+MemcacheDB
+This is a distributed storage system of key value. It should not be confused with a cache solution; rather, it is a persistent storage engine which is meant for data storage and retrieval in a fast and reliable manner. Confirmation to memcache protocol is provided for. The storing backend that is used is the Berkeley DB which supports features like replication and transaction.
+
+Riak
+This is one of the most powerful, distributed databases ever to be introduced. It provides for easy and predictable scaling and equips users with the ability for quick testing, prototyping and application deployment so as to simplify development.
+
+Neo4j
+This is a NoSQL graph database which exhibits a high level of performance. It comes well equipped with all the features of a robust and mature system. It provides the programmers with a flexible and object oriented network structure and allows them to enjoy all the benefits of a database that is fully transactional. Compared to RDBMS, Neo4j will also provide you with performance improvements on some of the applications.
+
+HBASE
+HBase can be easily considered as a scalable, distributed and a big data store. This database can be used when you are looking for real time and random access to your data. It comes with modular and linear scalability along with reads and writes that are strictly consistent. Other features include Java API that has an easy client access, table sharding that is configurable and automatic, Bloom filters and block caches and much more.
+
+Perst
+This is an object oriented DBMS that is open source and has a dual license. With this, you will be able to store, sort and retrieve data in your applications with low overhead storage and memory and very high speed.
+
+HyperGraphDB
+This is an open source data storage system that is extensible, distributed, general purpose, portable and embeddable. Basically this is a graph database which is mostly meant for AI, Semantic web projects and knowledge representation; it can also handle Java projects of different sizes.
+
+Cassandra
+Cassandra In case you are looking for high availability and scalability without compromising on performance, then Cassandra database is the thing for you. It is a perfect data platform characterized by fault tolerance and linear scalability along with best in class replication support.
+
+Voldemort
+
+This is an automatically replicating distributed storage system. It provides for automatic partitioning of data, transparent handling of server failure, pluggable serialization, independence of nodes and versioning of data items along with support for data distribution across various centers.
+
+Terrastore
+
+This is a modern document store that facilitates elasticity features and high scalability without compromising on consistency. This system is based on a fast, clustering technology that is industry proven. It can support deployments that are single or multi clustered and can be accessed through HTTP protocol.
+
+NeoDatis
+
+NeoDatis is an object database that is simple to use and can run with Google Android, .Net, Groovy, Java and Scala. It will help you do away with the impedance mismatch between Relational worlds and objects. Integrating NeoDatis ODB with your business will allow you to focus on logic along with single line code storage and retrieval of data.
+
+MyOODB
+
+If you are serious about web development and application, you cannot do without MyOODB. This is an application and database framework which gives you the power to bring back object oriented design to web development.
+
+OrientDB
+
+This is a NoSQL DBMS that is open source and having the features of both Graph DBMSs and Document. It is an amazingly fast system that can store more than a hundred thousand records on a common hardware, every second. It is highly secure with a pretty straightforward usage.
+
+InfoGrid
+
+This is a web graph database having a lot of additional software components. This is an open source system which helps in easy development of full web applications that are based on a graph foundation.
+
+Db4objects
+
+This is an object database that is open source and can be used with .Net and Java. It helps the developers in storing and retrieving any object using a single line of code. This also helps in the elimination of predefining or maintaining a separate data model.
+
+The NoSQL databases are really highly scallable and good for large data storage and processing. However, these may not be always the best choice for you. NoSQL databases are still not the best option for a mission critical transaction needs.
