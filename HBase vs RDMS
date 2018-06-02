@@ -1,0 +1,10 @@
+HBase	                                                                            RDBMS
+1. Column-oriented	                                                      1. Row-oriented(mostly)
+2. Flexible schema, add columns on the Fly                                2. Fixed schema
+3. Good with sparse tables.	                                              3. Not optimized for sparse tables.
+4. No query language	                                                    4. SQL
+5. Wide tables	                                                          5. Narrow tables
+6. Joins using MR – not optimized                                         6. optimized for Joins(small, fast ones)                                     
+7. Tight – Integration with MR	                                          7. Not really
+8. De-normalize your data.	                                              8. Normalize as you can
+9. Horizontal scalability-just add hard war.	                            9. Hard to share and scale.
