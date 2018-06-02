@@ -1,0 +1,4 @@
+The CAP theorem says that, fundamentally, there is a tension in asynchronous networks (those whose nodes do not have access to a shared clock) between three desirable properties of data store services distributed across more than one node:
+Availability - will a request made to the data store always eventually complete, no matter what (non-total) pattern of failures have occurred?
+Consistency - will all executions of reads and writes seen by all nodes be sequentially consistent? Roughly, this means that the results of 'earlier' writes are seen by 'later' reads, but the formal definition is a little more subtle.
+Partition tolerance - the network can suffer arbitrary failure patterns. This can be modelled as the refusal of the network to deliver any subset of the messages sent between nodes. Note that the failure of a single node can count as a 'partition'.
