@@ -1,0 +1,32 @@
+In HBase, tables are split into regions and are served by the region servers. Regions are vertically divided by column families into “Stores”. Stores are saved as files in HDFS. Shown below is the architecture of HBase.
+
+HBase has three major components: the client library, a master server, and region servers. Region servers can be added or removed as per requirement.
+
+MasterServer
+The master server -
+Assigns regions to the region servers and takes the help of Apache ZooKeeper for this task.
+Handles load balancing of the regions across region servers. It unloads the busy servers and shifts the regions to less occupied servers.
+Maintains the state of the cluster by negotiating the load balancing.
+Is responsible for schema changes and other metadata operations such as creation of tables and column families.
+
+Regions
+Regions are nothing but tables that are split up and spread across the region servers.
+
+Region server
+The region servers have regions that -
+Communicate with the client and handle data-related operations.
+Handle read and write requests for all the regions under it.
+Decide the size of the region by following the region size thresholds.
+
+The store contains memory store and HFiles. Memstore is just like a cache memory. Anything that is entered into the HBase is stored here initially. Later, the data is transferred and saved in Hfiles as blocks and the memstore is flushed.
+
+Zookeeper
+Zookeeper is an open-source project that provides services like maintaining configuration information, naming, providing distributed synchronization, etc.
+
+Zookeeper has ephemeral nodes representing different region servers. Master servers use these nodes to discover available servers.
+
+In addition to availability, the nodes are also used to track server failures or network partitions.
+
+Clients communicate with region servers via zookeeper.
+
+In pseudo and standalone modes, HBase itself will take care of zookeeper.
